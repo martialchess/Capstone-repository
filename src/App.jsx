@@ -6,9 +6,18 @@ function App() {
 
   return (
     <>
-      <div>
-        Homepage
-      </div>
+      <header>
+        Header
+      </header>
+      <nav>
+        Nav
+      </nav>
+      <main>
+        Main
+      </main>
+      <footer>
+        footer
+      </footer>
     </>
   )
 }
