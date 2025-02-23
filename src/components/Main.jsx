@@ -2,6 +2,7 @@ import React, { useReducer } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import Header from './Header';
 import Booking from './Booking';
+import BookingForm from './BookingForm';
 import ConfirmedBooking from './ConfirmedBooking';
 
 // Dummy API function: returns available times for the given date.

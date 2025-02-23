@@ -144,6 +144,12 @@ form, .confirm{
   padding: 50px 20px;
 }
 
+.booking-form {
+  width: 1500px;
+  max-width: 90%;
+  text-align: center;
+}
+
 input, label{
   display: inline-block;
   margin-right: 20px;
@@ -262,6 +268,13 @@ footer ul{
 
 footer ul li{
   padding: 8px 0;
+}
+
+.booking-heading {
+  text-align: center;
+  margin-top: 1 rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
 }
 
 

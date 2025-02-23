@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const BookingForm = ({ availableTimes, dispatch, submitForm }) => {
-  // Set today's date as default in YYYY-MM-DD format.
+  // Ensure availableTimes is defined; since Booking.jsx now passes it, availableTimes[0] should exist.
   const today = new Date().toISOString().split("T")[0];
   const [date, setDate] = useState(today);
   const [time, setTime] = useState(availableTimes[0]);
@@ -29,7 +29,7 @@ const BookingForm = ({ availableTimes, dispatch, submitForm }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="booking-form" onSubmit={handleSubmit}>
       <div>
         <label htmlFor="date">Choose Date:</label>
         <input
